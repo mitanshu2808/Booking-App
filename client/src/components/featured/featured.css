@@ -1,0 +1,37 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 220px;
+}
+.featuredImg{
+    width: 100%;
+    border-radius: 10px;
+    height: 220px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.featuredImg:hover{
+    transform: scale(1.1);
+}
+.featuredTitles{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.featuredTitles>h1{
+    margin-bottom: -20px;
+}
+.featuredTitles>h2{
+    margin-bottom: 5px;
+}

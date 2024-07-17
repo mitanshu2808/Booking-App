@@ -1,5 +1,5 @@
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .header{
     background-color: #003580;
@@ -40,7 +40,7 @@ body{
     font-weight: 500;
     border: none;
     padding: 10px;
-    cursor: none;
+    cursor: pointer;
 }
 .headerSearch{
     height: 30px;
@@ -75,8 +75,10 @@ body{
 .date{
     position: absolute;
     top: 50px;
+    z-index: 2;
 }
 .options{
+    z-index: 2;
     position: absolute;
     top: 50px;
     background-color: white;
